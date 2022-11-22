@@ -1,1 +1,6 @@
 testchecker
+*.lock
+.vs/well-named-in-c-mrsachinroy/v17/.suo
+.vs/well-named-in-c-mrsachinroy/v17/Browse.VC.db
+.vs/well-named-in-c-mrsachinroy/v17/ipch/AutoPCH/188e3e3b828203f8/VCTMP35684_984696.MAIN.00000000.ipch
+.vs/well-named-in-c-mrsachinroy/v17/.wsuo
