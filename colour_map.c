@@ -1,5 +1,8 @@
 #include "colour_map.h"
 
+
+const int MAX_COLORPAIR_NAME_CHARS = 25;
+
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
 };

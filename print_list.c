@@ -1,7 +1,7 @@
 
 #include "colour_map.h"
-#include "std_type.h"
 #include "stdio.h"
+#include "print_list.h"
 
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
@@ -11,19 +11,19 @@ void ColorPairToString(const ColorPair* colorPair, char* buffer) {
 }
 
 
-void PrintClrPairToCodeList()
-{   
-    
-    for (int indx = 0; indx < MAX_COLORPAIR_NAME_CHARS; indx++)
+void PrintClrPairToCodeList(void)
+{ 
+    printf("List of Total 25 Wire colour pairs is:\n");
+
+    for (int indx = 1; indx <= MAX_COLORPAIR_NAME_CHARS; indx++)
     {
         ColorPair PairName = GetColorFromPairNumber(indx);
 
         char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
 
         ColorPairToString(&PairName, colorPairNames);
-        printf("Got pair %s\n", colorPairNames);
 
-        printf("test\n");
+        printf("Pair No: %d Colour pair: %s\n", indx, colorPairNames);
 
     }
     

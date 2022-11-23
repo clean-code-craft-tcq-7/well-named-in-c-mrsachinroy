@@ -2,6 +2,7 @@
 #ifndef _TEST_H_
 #define _TEST_H_
 
+#include "colour_map.h"
 
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,

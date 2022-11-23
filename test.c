@@ -1,6 +1,7 @@
 #include "test.h"
-#include "std_type.h"
-#include "colour_map.h""
+#include "print_list.h"
+#include "stdio.h"
+#include <assert.h>
 
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
